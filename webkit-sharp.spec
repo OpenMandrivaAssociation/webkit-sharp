@@ -14,6 +14,7 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: libwebkitgtk-devel
 BuildRequires: mono-devel
 BuildRequires: gtk-sharp2-devel
+BuildRequires: gtk-sharp2
 BuildRequires: monodoc
 Requires: libwebkitgtk
 BuildArch: noarch
