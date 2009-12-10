@@ -1,14 +1,12 @@
 %define name webkit-sharp
-%define version 0.2
-%define release %mkrel 3
+%define version 0.3
+%define release %mkrel 1
 
 Summary: WebKit bindings for Mono
 Name: %{name}
 Version: %{version}
 Release: %{release}
 Source0: %{name}-%{version}.tar.bz2
-#gw update for webkit 1.1.1
-Patch: webkit-sharp-0.2-new-major.patch
 License: MIT
 Group: Development/Other
 Url: http://mono.ximian.com/monobuild/preview/sources/webkit-sharp/
@@ -48,7 +46,6 @@ This package contains the development files needed to build with %{name}.
 
 %prep
 %setup -q
-%patch -p1
 
 %build
 ./configure --prefix=%_prefix --libdir=%_prefix/lib
