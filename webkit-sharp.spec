@@ -11,12 +11,12 @@ License: MIT
 Group: Development/Other
 Url: http://mono.ximian.com/monobuild/preview/sources/webkit-sharp/
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
-BuildRequires: libwebkitgtk-devel
+BuildRequires: webkitgtk-devel
 BuildRequires: mono-devel
 BuildRequires: gtk-sharp2-devel
 BuildRequires: gtk-sharp2
 BuildRequires: monodoc
-Requires: libwebkitgtk >= 1.1.1
+Requires: webkit
 BuildArch: noarch
 
 %description
