@@ -1,6 +1,6 @@
 %define name webkit-sharp
 %define version 0.3
-%define release %mkrel 3
+%define release %mkrel 4
 
 Summary: WebKit bindings for Mono
 Name: %{name}
