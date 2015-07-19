@@ -1,7 +1,7 @@
 Summary:	WebKit bindings for Mono
 Name:		webkit-sharp
 Version:	0.3
-Release:	12
+Release:	13
 Source0:	%{name}-%{version}.tar.bz2
 License:	MIT
 Group:		Development/Other
