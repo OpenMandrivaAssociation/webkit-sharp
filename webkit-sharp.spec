@@ -6,6 +6,11 @@ Source0:	%{name}-%{version}.tar.bz2
 License:	MIT
 Group:		Development/Other
 Url:		https://mono.ximian.com/monobuild/preview/sources/webkit-sharp/
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(webkit-1.0)
 BuildRequires:	mono-devel
 BuildRequires:	gtk-sharp2-devel
